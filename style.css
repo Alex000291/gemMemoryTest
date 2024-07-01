@@ -1,0 +1,11 @@
+.game {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 创建4列 */
+    grid-template-rows: repeat(4, 1fr); /* 创建4行 */
+    gap: 10px; /* 格子之间的间隙 */
+  }
+  
+  .grid-item {
+    background-image: url('board.png'); /* 设置背景图片 */
+    background-size: cover; /* 背景图片覆盖整个格子 */
+  }
